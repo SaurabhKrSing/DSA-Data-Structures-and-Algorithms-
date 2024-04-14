@@ -3,13 +3,29 @@
 
 ### Table of Contents
 
-| Questions                                                                                       |
-| ----------------------------------------------------------------------------------------------- |
-| [What is Data](#What-is-Data)                                                                   |
-| [What is Structure](#What-is-Structure)                                                         |
-| [What is Data Structure](#What-is-Data-Structure)                                               |
-| [Type of Data Structure](#Type-of-Data-Structure)                                               |
-| [What are some applications of Data Structures](#What-are-some-applications-of-Data-Structures) |
+| Questions                                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------- |
+| [What is Data](#What-is-Data)                                                                                                               |
+| [What is Structure](#What-is-Structure)                                                                                                     |
+| [What is Data Structure](#What-is-Data-Structure)                                                                                           |
+| [Type of Data Structure](#Type-of-Data-Structure)                                                                                           |
+| [What are some applications of Data Structures](#What-are-some-applications-of-Data-Structures)                                             |
+| [What is the difference between file structure and storage structure](#What-is-the-difference-between-file-structure-and-storage-structure) |
+| [What is Array](#What-is-Array)                                                                                                             |
+| [Why do we need an array](#Why-do-we-need-an-array)                                                                                         |
+| [What is Time Complexity](#What-is-Time-Complexity)                                                                                         |
+| [What is Space Complexity](#What-is-Space-Complexity)                                                                                       |
+| [What is Difference Between time complexity and space complexity](#What-is-Difference-Between-time-complexity-and-space-complexity)         |
+| [Time Complexities and Space Complexities Sheet and Big O Graph](#Time-Complexities-and-Space-Complexities-Sheet-and-Big-O-Graph)           |
+| [What is Difference between Linear Search and Binary Search](#What-is-Difference-between-Linear-Search-and-Binary-Search)                   |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+
+
 
 
 ---
@@ -21,6 +37,8 @@
 
   **[⬆ Back to Top](#table-of-contents)**
 
+  ---
+
 
 ### What is Structure
    
@@ -28,6 +46,8 @@
 
 
   **[⬆ Back to Top](#table-of-contents)**
+
+  ---
 
 
 ###  What is Data Structure
@@ -40,6 +60,7 @@
 
   **[⬆ Back to Top](#table-of-contents)**
 
+  ---
 
 
 ### Type of Data Structure
@@ -59,6 +80,8 @@
 
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+   ---
 
 
 ### What are some applications of Data Structures
@@ -81,12 +104,122 @@
 
 
    **[⬆ Back to Top](#table-of-contents)**
+   
+---
 
 
 ### What is the difference between file structure and storage structure
 
-  File structure refers to how data is organized within a file, including its format, encoding, and organization. 
+  **File structure** refers to how data is organized within a file, including its format, encoding, and organization. 
   
-  Storage structure refers to how data is physically stored on a storage device, such as disk blocks or memory cells. \
+  **Storage structure** refers to how data is physically stored on a storage device, such as disk blocks or memory cells. 
   
   Both are essential for efficient data storage and retrieval in computer systems.
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Array
+  An array is a linear data structure consisting of a collection of elements stored at contiguous memory locations. Each element in an array is accessed by its index, which represents its position within the array. Arrays can store elements of the same data type and provide constant-time access to elements.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+###  Why do we need an array
+
+  Arrays provide a structured way to store and access multiple elements of the same data type in a contiguous memory block. They offer efficient random access, enabling easy manipulation, iteration, and processing of data, making them essential for organizing and managing collections of data in various algorithms and applications.
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Time Complexity
+
+  **Time complexity** refers to the amount of time an algorithm takes to complete as a function of the length of its input. It measures how the runtime of an algorithm grows with the size of the input data. Time complexity is typically expressed using big O notation.
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Space Complexity
+
+  **Space complexity** refers to the amount of memory space an algorithm requires as a function of the length of its input. It measures how the memory usage of an algorithm grows with the size of the input data. Space complexity is also typically expressed using big O notation.
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Difference Between time complexity and space complexity
+
+  | Aspect       | Time Complexity                                                                                                            | Space Complexity                                                                                                                            |
+  | ------------ | -------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+  | Definition   | Represents the amount of time taken by an algorithm to run as a function of the input size.                                | Represents the amount of memory space taken by an algorithm to run as a function of the input size.                                         |
+  | Measure      | Typically measured in terms of the number of basic operations (e.g., comparisons, assignments) performed by the algorithm. | Typically measured in terms of the amount of memory used by the algorithm, including variables, data structures, and recursive call stacks. |
+  | Notation     | Usually expressed using Big O notation (e.g., O(n), O(n^2)) to denote the worst-case time complexity of an algorithm.      | Also expressed using Big O notation (e.g., O(n), O(n^2)) to denote the worst-case space complexity of an algorithm.                         |
+  | Importance   | Indicates how the runtime of an algorithm scales with the input size, helping to assess efficiency.                        | Indicates how much memory an algorithm consumes with respect to the input size, which is crucial for resource-constrained environments.     |
+  | Optimization | Focuses on reducing the number of operations performed by the algorithm to improve efficiency.                             | Focuses on minimizing the amount of memory used by the algorithm, such as optimizing data structures or reducing unnecessary allocations.   |
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### Time Complexities and Space Complexities Sheet and Big O Graph
+
+  **Worst Case Time Complexity:** The absolute most number of times an operation needs to be done before completed
+  **Average Case Time Complexity:** The average number of times it will take for the algorithm / code to complete
+  **Amortized Running Time:** Similar to average, it is the number of times the operation will take when run a sufficient amount of time consecutively
+  **Best Case Time Complexity:** The fastest number of times an operation needs to complete
+
+  ![](readmeImage/big-o-cheat-sheet-poster.png)
+
+  ![](readmeImage/Common_Data_Structure_Operations.png)
+
+  ![](readmeImage/sorting.png)
+
+  ![](readmeImage/Sorting%20And%20Searching%20Algorithms%20-%20Time%20Complexities%20Cheat%20Sheet.png)
+
+  ![](readmeImage/graph.webp)
+
+
+   **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Difference between Linear Search and Binary Search
+
+  Linear search and binary search are both algorithms used to search for an element in a list or array, but they differ in their approach, efficiency, and implementation.
+
+  Here's a comparison between Linear Search and Binary Search:
+
+  | Aspect           | Linear Search                                                                                                                 | Binary Search                                                                                                                            |
+  | ---------------- | ----------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+  | Approach         | Sequentially checks each element in the list/array until the target element is found or the end of the list/array is reached. | Divides the list/array into halves and repeatedly narrows down the search range by comparing the target element with the middle element. |
+  | Complexity       | Time complexity: O(n) (linear)                                                                                                | Time complexity: O(log n) (logarithmic)                                                                                                  |
+  | Data Requirement | Works on both sorted and unsorted lists/arrays.                                                                               | Requires the list/array to be sorted beforehand.                                                                                         |
+  | Performance      | Suitable for small lists/arrays or unsorted data.                                                                             | Suitable for large lists/arrays or sorted data.                                                                                          |
+  | Implementation   | Simple to implement.                                                                                                          | Requires a sorted list/array and more complex implementation.                                                                            |
+  | Iterations       | May require scanning through the entire list/array in the worst case.                                                         | Halves the search space with each iteration, resulting in fewer iterations.                                                              |
+  | Examples         | Searching a name in a phone book.                                                                                             | Searching a word in a dictionary.                                                                                                        |
+
+  
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+###   
