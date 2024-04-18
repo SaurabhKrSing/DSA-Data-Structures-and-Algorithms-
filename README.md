@@ -18,11 +18,11 @@
 | [What is Difference Between time complexity and space complexity](#What-is-Difference-Between-time-complexity-and-space-complexity)         |
 | [Time Complexities and Space Complexities Sheet and Big O Graph](#Time-Complexities-and-Space-Complexities-Sheet-and-Big-O-Graph)           |
 | [What is Difference between Linear Search and Binary Search](#What-is-Difference-between-Linear-Search-and-Binary-Search)                   |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
+| [What is Brute Force Algorithm](#What-is-Brute-Force-Algorithm)                                                                             |
+| [What is kadane Algorithm](#What-is-kadane-Algorithm)                                                                                       |
+| [What is Bubble Sort](#What-is-Bubble-Sort)                                                                                                 |
+| [What is Selection Sort](#What-is-Selection-Sort)                                                                                           |
+| [What is Insertion Sort](#What-is-Insertion-Sort)                                                                                           |
 | [](#)                                                                                                                                       |
 
 
@@ -222,4 +222,54 @@
 ---
 
 
-###   
+### What is Brute Force Algorithm
+
+  Brute force refers to a straightforward problem-solving approach where all possible solutions are systematically tried until the correct one is found. While conceptually simple and easy to implement, brute force algorithms may be inefficient for large problem instances due to their exponential time complexity.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is kadane Algorithm
+
+  Kadane's algorithm is a dynamic programming approach used to find the maximum sum of a contiguous subarray within an array of numbers. It efficiently computes the maximum subarray sum by iterating through the array once and keeping track of the maximum sum seen so far.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Bubble Sort
+
+  Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. It iterates through the list until no more swaps are needed, resulting in the elements "bubbling" into their correct positions.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Selection Sort
+
+  Selection Sort iteratively selects the smallest (or largest) element from the unsorted part of the array and swaps it with the first element of the unsorted part. This process continues until the entire array is sorted. It has a time complexity of O(n^2) in all cases.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Insertion Sort
+
+  Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates over each element, comparing it with the already sorted elements and inserting it into its correct position, shifting the larger elements to the right.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### 
