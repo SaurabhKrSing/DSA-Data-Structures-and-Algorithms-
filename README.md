@@ -23,6 +23,30 @@
 | [What is Bubble Sort](#What-is-Bubble-Sort)                                                                                                 |
 | [What is Selection Sort](#What-is-Selection-Sort)                                                                                           |
 | [What is Insertion Sort](#What-is-Insertion-Sort)                                                                                           |
+| [What is 2D Arrays](#What-is-2D-Arrays)                                                                                                     |
+| [What is Matrix](#What-is-Matrix)                                                                                                           |
+| [What is Spiral Matrix](#What-is-Spiral-Matrix)                                                                                             |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
+| [](#)                                                                                                                                       |
 | [](#)                                                                                                                                       |
 
 
@@ -265,6 +289,36 @@
 ### What is Insertion Sort
 
   Insertion Sort is a simple sorting algorithm that builds the final sorted array one element at a time. It iterates over each element, comparing it with the already sorted elements and inserting it into its correct position, shifting the larger elements to the right.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is 2D Arrays
+
+  A 2D array is an array of arrays, forming a grid-like structure where elements are accessed using two indices, typically representing rows and columns in a tabular data format.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Matrix
+
+  A matrix is a two-dimensional array of elements arranged in rows and columns. It's commonly used to represent mathematical concepts, graphs, images, or tabular data in computer science algorithms and applications.
+
+
+  **[⬆ Back to Top](#table-of-contents)**
+   
+---
+
+
+### What is Spiral Matrix
+
+  A spiral matrix is a matrix (2D array) arranged in a spiral order, where elements are accessed by traversing the matrix in a spiral path starting from the top-left corner and moving towards the center in a clockwise or counterclockwise direction.
 
 
   **[⬆ Back to Top](#table-of-contents)**

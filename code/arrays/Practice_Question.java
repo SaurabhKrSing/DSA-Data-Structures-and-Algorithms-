@@ -1,7 +1,5 @@
 package code.arrays;
 
-import java.util.*;
-
 public class Practice_Question {
 
   // Question 1: Given an integer array nums,return true if any value appears at
