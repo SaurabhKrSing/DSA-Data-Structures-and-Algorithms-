@@ -1,0 +1,245 @@
+{
+     // Use IntelliSense to learn about possible attributes.
+     // Hover to view descriptions of existing attributes.
+     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+     "version": "0.2.0",
+     "configurations": [
+          {
+               "type": "java",
+               "name": "Current File",
+               "request": "launch",
+               "mainClass": "${file}"
+          },
+          {
+               "type": "java",
+               "name": "Access_modifiers_1",
+               "request": "launch",
+               "mainClass": "Access_modifiers_1",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Construct",
+               "request": "launch",
+               "mainClass": "Construct",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Getter_Setter",
+               "request": "launch",
+               "mainClass": "Getter_Setter",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Shallow_Copy",
+               "request": "launch",
+               "mainClass": "Shallow_Copy",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Binary_Search",
+               "request": "launch",
+               "mainClass": "code.arrays.Binary_Search",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Buy_and_Sell_Stocks",
+               "request": "launch",
+               "mainClass": "code.arrays.Buy_and_Sell_Stocks",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Input_Output_Update",
+               "request": "launch",
+               "mainClass": "code.arrays.Input_Output_Update",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Largest_Number",
+               "request": "launch",
+               "mainClass": "code.arrays.Largest_Number",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Linear_Search",
+               "request": "launch",
+               "mainClass": "code.arrays.Linear_Search",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Max_Subarray_Sum_III_Kadane_Algorithm",
+               "request": "launch",
+               "mainClass": "code.arrays.Max_Subarray_Sum_III_Kadane_Algorithm",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Max_Subarray_Sum_II_Prefix_Sum",
+               "request": "launch",
+               "mainClass": "code.arrays.Max_Subarray_Sum_II_Prefix_Sum",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Max_Subarray_Sum_I_Brute_Force",
+               "request": "launch",
+               "mainClass": "code.arrays.Max_Subarray_Sum_I_Brute_Force",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Pairs_Array",
+               "request": "launch",
+               "mainClass": "code.arrays.Pairs_Array",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Print_SubArray",
+               "request": "launch",
+               "mainClass": "code.arrays.Print_SubArray",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Reverse_Array",
+               "request": "launch",
+               "mainClass": "code.arrays.Reverse_Array",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Smallest_Number",
+               "request": "launch",
+               "mainClass": "code.arrays.Smallest_Number",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Trapped_Rainwater",
+               "request": "launch",
+               "mainClass": "code.arrays.Trapped_Rainwater",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Clear_last_i_bits",
+               "request": "launch",
+               "mainClass": "code.bit_manipulation.Clear_last_i_bits",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "bubble_sort",
+               "request": "launch",
+               "mainClass": "code.sorting_algorithm.bubble_sort",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "counting_sort",
+               "request": "launch",
+               "mainClass": "code.sorting_algorithm.counting_sort",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "inbuilt_sort",
+               "request": "launch",
+               "mainClass": "code.sorting_algorithm.inbuilt_sort",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "insertion_sort",
+               "request": "launch",
+               "mainClass": "code.sorting_algorithm.insertion_sort",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "selection_sort",
+               "request": "launch",
+               "mainClass": "code.sorting_algorithm.selection_sort",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Anagram",
+               "request": "launch",
+               "mainClass": "code.string.Anagram",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Palindrome",
+               "request": "launch",
+               "mainClass": "code.string.Palindrome",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "largest_string",
+               "request": "launch",
+               "mainClass": "code.string.largest_string",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "shortest_path",
+               "request": "launch",
+               "mainClass": "code.string.shortest_path",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "string_compression",
+               "request": "launch",
+               "mainClass": "code.string.string_compression",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "substring",
+               "request": "launch",
+               "mainClass": "code.string.substring",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Create2DArray",
+               "request": "launch",
+               "mainClass": "code.two_dimensional_arrays.Create2DArray",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Diagonal_Sum",
+               "request": "launch",
+               "mainClass": "code.two_dimensional_arrays.Diagonal_Sum",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Search_in_Sorted_Matrix_Array",
+               "request": "launch",
+               "mainClass": "code.two_dimensional_arrays.Search_in_Sorted_Matrix_Array",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          },
+          {
+               "type": "java",
+               "name": "Spiral_Matrix",
+               "request": "launch",
+               "mainClass": "code.two_dimensional_arrays.Spiral_Matrix",
+               "projectName": "DSA (Data Structures and Algorithms)_285189ab"
+          }
+     ]
+}
