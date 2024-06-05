@@ -40,16 +40,16 @@
 | [What is Destructors](#What-is-Destructors)                                                                                                 |
 | [What is Inheritance](#What-is-Inheritance)                                                                                                 |
 | [Type of Inheritance](#Type-of-Inheritance)                                                                                                 |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
-| [](#)                                                                                                                                       |
+| [What is Polymorphism](#What-is-Polymorphism)                                                                                               |
+| [Types of Polymorphism](#Types-of-Polymorphism)                                                                                             |
+| [What is Abstraction](#What-is-Abstraction)                                                                                                 |
+| [What is an Interface](#What-is-an-Interface)                                                                                               |
+| [What is a Static Keyword](#What-is-a-Static-Keyword)                                                                                       |
+| [What is a Super Keyword](#What-is-a-Super-Keyword)                                                                                         |
+| [What is Recursion](#What-is-Recursion)                                                                                                     |
+| [What is Recursion Function](#What-is-Recursion-Function)                                                                                   |
+| [What is Call Stack](#What-is-Call-Stack)                                                                                                   |
+| [What is Stack Overflow](#What-is-Stack-Overflow)                                                                                           |
 | [](#)                                                                                                                                       |
 | [](#)                                                                                                                                       |
 | [](#)                                                                                                                                       |
@@ -439,6 +439,8 @@ The four main access modifiers are:
    ```
 
 These modifiers are essential for encapsulation, allowing developers to restrict access to the inner workings of a class and protect the integrity of the data.
+
+![](readmeImage/Access_Modifiers.png)
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -944,7 +946,7 @@ class Bird extends Animal implements CanFly {
 
 ---
 
-### WHat is Polymorphism
+### What is Polymorphism
 
 Polymorphism allows objects to be treated as instances of their parent class or interface, enabling a single interface to represent different underlying data types. This promotes flexibility and code reuse.
 
@@ -1012,11 +1014,11 @@ In this example, polymorphism allows both cars and SUVs to be driven using a com
 1. **Compile-Time Polymorphism (Static Binding or Method Overloading)**
 2. **Run-Time Polymorphism (Dynamic Binding or Method Overriding)**
 
-### Compile-Time Polymorphism (Method Overloading)
+## Compile-Time Polymorphism (Method Overloading)
 
 Method Overloading occurs when multiple methods in the same class have the same name but different parameters (different type, number, or both).
 
-#### Example
+## Example
 
 ```java
 class MathOperations {
@@ -1043,11 +1045,11 @@ public class Main {
 }
 ```
 
-### Run-Time Polymorphism (Method Overriding)
+## Run-Time Polymorphism (Method Overriding)
 
 Method Overriding occurs when a subclass provides a specific implementation of a method that is already defined in its superclass. The method in the subclass overrides the method in the superclass.
 
-#### Example
+## Example
 
 ```java
 class Animal {
@@ -1079,7 +1081,7 @@ public class Main {
 }
 ```
 
-### Key Points
+## Key Points
 
 - **Compile-Time Polymorphism**: Resolved during compile time. Uses method overloading.
 - **Run-Time Polymorphism**: Resolved during runtime. Uses method overriding.
@@ -1089,49 +1091,155 @@ public class Main {
 
 ---
 
-###
+### What is Abstraction
+
+Abstraction is the concept of hiding complex implementation details and presenting only essential features to the user, allowing for easier understanding and more efficient use of a system.
+
+Abstraction is a fundamental concept in object-oriented programming (OOP) where you focus on the essential characteristics of an object rather than the specific details. It allows you to create models that represent real-world entities in a simplified manner.
+
+## Example
+
+Let's consider a car as a real-world example of abstraction. A car has various properties such as make, model, color, and functionality such as starting the engine, accelerating, and braking. In an abstraction, we would focus on these essential features without worrying about the intricate details of how each operation is implemented.
+
+Here's an example of how you can represent a car in Java using abstraction:
+
+## Example
+
+```java
+public abstract class Car {
+    private String make;
+    private String model;
+    private String color;
+
+    public Car(String make, String model, String color) {
+        this.make = make;
+        this.model = model;
+        this.color = color;
+    }
+
+    // Abstract method for starting the engine
+    public abstract void startEngine();
+
+    // Abstract method for accelerating
+    public abstract void accelerate();
+
+    // Abstract method for braking
+    public abstract void brake();
+
+    // Getters and setters
+    public String getMake() {
+        return make;
+    }
+
+    public void setMake(String make) {
+        this.make = make;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+}
+
+// Sedan.java
+public class Sedan extends Car {
+    public Sedan(String make, String model, String color) {
+        super(make, model, color);
+    }
+
+    @Override
+    public void startEngine() {
+        System.out.println("Starting Sedan's engine...");
+    }
+
+    @Override
+    public void accelerate() {
+        System.out.println("Sedan is accelerating...");
+    }
+
+    @Override
+    public void brake() {
+        System.out.println("Sedan is braking...");
+    }
+}
+
+// Main.java
+public class Main {
+    public static void main(String[] args) {
+        Car sedan = new Sedan("Toyota", "Camry", "Blue");
+        sedan.startEngine();
+        sedan.accelerate();
+        sedan.brake();
+    }
+}
+```
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is an Interface
+
+An interface is a reference type that defines a set of abstract methods. A class that implements an interface must implement all of the methods declared in the interface. Interfaces can be used to achieve abstraction and polymorphism in Java.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is a Static Keyword
+
+In Java, the `static` keyword is used to define class-level members, such as variables and methods, that belong to the class itself rather than to instances of the class.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is a Super Keyword
+
+In Java, the `super` keyword is used to refer to the superclass's methods and constructors, enabling access to superclass members that are hidden or overridden by the subclass.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is Recursion
+
+Recursion is a method of solving a computational problem where the solution depends on solutions to smaller instances of the same problem.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is Recursion Function
+
+A recursion function calls itself to solve smaller instances of the same problem, eventually reaching a base case to terminate.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is Call Stack
+
+A call stack keeps track of active function calls, managing function execution order and return addresses.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ---
 
-###
+### What is Stack Overflow
+
+A stack overflow occurs when the call stack exceeds its limit, typically due to excessive or infinite recursion, causing the program to crash.
 
 **[⬆ Back to Top](#table-of-contents)**
 
